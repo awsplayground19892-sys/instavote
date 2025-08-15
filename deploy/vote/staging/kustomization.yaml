@@ -13,10 +13,10 @@ commonLabels:
 commonAnnotations:
   supported-by: "vinayak@gmail.com"
 images:
-  - name: vinycoolguy/vote
-    newTag: main-4d1dc291-1755239995 # {"$imagepolicy": "flux-system:vote:tag"}
+- name: vinycoolguy/vote
+  newTag: main-fc649116-1755248517 # {"$imagepolicy": "flux-system:vote:tag"}
 configMapGenerator:
-  - name: vote
-    literals:
-      - OPTION_A=Summer
-      - OPTION_B=Winter
+- name: vote
+  literals:
+  - OPTION_A=Summer
+  - OPTION_B=Winter
