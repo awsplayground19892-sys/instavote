@@ -1,7 +1,6 @@
 name: Build and Push Vote Docker Image
 
 on:
-  workflow_dispatch:     # allows manual trigger
   push:
     paths:
       - 'vote/**'   # triggers only when vote folder changes
