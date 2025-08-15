@@ -14,7 +14,7 @@ commonAnnotations:
   supported-by: "vinayak@gmail.com"
 images:
 - name: vinycoolguy/vote
-  newTag: main-fc649116-1755248517 # {"$imagepolicy": "flux-system:vote:tag"}
+  newTag: main-9c71b14b-1755249042 # {"$imagepolicy": "flux-system:vote:tag"}
 configMapGenerator:
 - name: vote
   literals:
